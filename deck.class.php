@@ -1,7 +1,5 @@
-<?php 
-
-class DeckOfCards { 
-
+<?php class DeckOfCards { 
+	
 	private $suits;
 	private $ranks;
 	public $deck;
@@ -16,7 +14,7 @@ class DeckOfCards {
 		}
 	}
 
-	function ShowDeck() {
+	function show_deck() {
 		// returns an array of all cards currently in the deck.
 		return $this->deck;
 	}
