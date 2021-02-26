@@ -32,6 +32,7 @@
 	function deal_top_card(){
 		// deal the top card from the deck, then remove it.
 		if(empty($this->deck)) return false; // no cards left
+		$card = $this->deck[0];
 		array_splice($this->deck, 0, 1);
 		return $card;
 	}
